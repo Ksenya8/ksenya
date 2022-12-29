@@ -1,0 +1,115 @@
+@font-face {
+    font-family:ofont ;
+    src: url(../font/21003.ttf);
+}
+body{
+    background: rgb(201, 161, 246);
+font-family: ofont;
+}
+.container{
+    width: 400px;
+    margin: 10px auto;
+    border:10px solid rgb(232, 169, 248)  ;
+   
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    color: rgb(174, 75, 199);
+
+}
+/*=============*/
+ul{
+padding: 0;
+margin: 0;
+}
+ul li{
+    list-style-type: none;
+    border: 1px solid rgba(241, 146, 202, 0.822);
+}
+.taskNo{
+border: none;
+}
+.taskNo img{
+    width: 100px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 32px #123;
+
+}
+.taskNo h2,
+form h2{
+    text-align:center ;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.tasklist div{
+    display:inline-block ;   
+}
+.tasklist div:first-child{
+width: 270px;
+text-align: left;
+}
+.tasklist div:last-child{
+    width: 120px;
+    text-align: right;
+} 
+.Yes{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(../img/yes.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+
+}
+.No{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    background-image: url(../img/no.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+/*=========*/
+form input{
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+form button{
+    display: block;
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px 0;
+    border-radius: 7px;
+    background: rgb(206, 11, 141);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 28px;
+    border: none;
+    transition: 1s;
+}
+form button:hover{
+   color: rgb(206, 11, 141);
+   background: rgb(255, 255, 255);
+    transition: 1s;
+}
+/*==*/
+.displayNone{
+    display: none;
+}
+.editTask{
+    color: rgb(121, 63, 197);
+    text-decoration: line-through;
+}
